@@ -1,0 +1,390 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.bloque
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+}
+.header
+{
+
+    background-image: url(Imagenes/fondo3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.centrar
+{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid red;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+.logo
+{
+    color: darkgray; margin-top: 10px;
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+.menu-principal
+{
+    width: 50%;
+    float: right;
+    border: 0px solid #fff;
+    background-color: transparent;
+    border-radius: 7px;
+    
+}
+
+.menu-principal ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+
+
+}
+.menu-principal ul li a
+{
+    color: beige;
+    text-decoration: none;
+}
+.izquierda, .derecha{
+    width: 45%;
+    height: auto; overflow: hidden;
+    border: 0px solid cornsilk; 
+    display: inline-block;
+}
+.izquierda
+{
+    float: left; text-align: left; }
+
+    .derecha{ float: right;}
+    
+    .subtitulo 
+    {
+        color: beige;
+    }
+    .titulo-principal
+    {
+        color: #fff;
+        font-size: 60px;
+    }
+.descripcion 
+{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+.boton
+{
+    padding: 17px 35px;
+    background-color: rgb(3, 131, 52);
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+}
+.img-pres
+{
+    width: 90%;
+    padding-top: -10px;
+}
+.logofont
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 50px;
+}
+
+.principal{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+}
+
+.principal .header-texto{
+    
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.principal .imagen{
+    
+    width: 60%;
+}
+
+.header-texto h3{
+    font-size: 50px;
+    padding-left: 55px;
+    
+}
+
+.contenido-texto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background-image: url(Imagenes/fondo3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.contenido-texto p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+
+
+.container-descripcion-servicios{
+    width: 100%;
+    background-color: #fff;
+
+}
+
+
+
+
+.container-descripcion-servicios .descripciones{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    padding: 30px 0px;
+}
+
+.container-descripcion-servicios .descripciones .descripcion{
+    width: 47%;
+    background-image: url(Imagenes/fondo3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    border-radius: 10px;
+    margin: 0px auto; 
+}
+
+.container-descripcion-servicios .descripciones .descripcion p{
+    font-size: 18px;
+    font-weight: 450;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+.container-servicios{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-servicios .servicios{
+    display: flex;
+    width: 90%;
+    margin: 30px 0px 0px;
+    justify-content: center;
+    
+    
+}
+
+.container-servicios .servicios .servicio{
+    
+    width: 19%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin:0px 40px;
+    
+}
+
+.servicio .img-servicio{
+    width: 100%;
+    margin: 0px auto 10px;
+    display: flex;
+    justify-content: center;
+    border: 3px #000 solid;
+    background: #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.servicio .img-servicio:hover{
+    background: #000;
+    border: 3px #000 solid;
+    transition: all 1s;
+}
+
+.servicio .img-servicio img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.servicio .descripcion h1{
+    font-size: 18px;
+    color: #000f18;
+    font-weight: 700;
+    border-bottom: 2px #000 solid;
+    text-align: center;
+}
+
+.servicio .descripcion p{
+    border-bottom: 2px #000 solid;
+    color: #000;
+    font-size: 18px;
+    font-weight: 450;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+/* Footer*/
+footer
+{
+    height: 360px;
+width: 100%;
+padding: 40px 0px;
+background-image: url(Imagenes/fondo3.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+.footer .centrar .izquierda 
+{
+    color: #ccc;
+}
+.footer .centrar .izquierda h4,p
+{
+    text-align: center;
+}
+.footer .centrar .izquierda p
+{
+    border-top: 1px solid #fff;
+}
+.entrada-form
+{
+    width: 70%;
+    padding: 8px 5px;
+    margin-bottom: 10px;
+} 
+.boton-contact
+{
+    padding: 7px 12px;
+
+}
+.pie 
+{
+    color: #c1c1c1;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+ .botons:hover{
+        background: rgb(44, 221, 53);
+}
+@media(max-width: 1000px){
+    .header-principal{
+        background-color: #fff;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .header-principal .header-texto{
+        
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .header-principal .imagen{
+        
+        width: 100%;
+    }
+    
+    .header-texto h3{
+        font-size: 50px;
+        text-align: center;
+        padding-left:0px;
+        
+    }
+
+    .container-servicios{
+        background-image: url(Imagenes/fondo3.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container-servicios .servicios{
+        display: flex;
+        width: 90%;
+        margin: 30px 0px 0px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .container-servicios .servicios .servicio{
+        
+        width: 90%;
+        margin:10px auto;
+    }
+    
+    .servicio .img-servicio{
+        width: 100%;
+        margin: 0px auto 10px;
+        display: flex;
+        justify-content: center;
+        border: 3px #000 solid;
+        background: #fff;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .servicio .img-servicio:hover{
+        background: #000;
+        border: 3px #000 solid;
+        transition: all 1s;
+    }
+    
+    .servicio .img-servicio img{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .servicio .descripcion h1{
+        font-size: 18px;
+        color: #000f18;
+        font-weight: 700;
+        border-bottom: 2px #00c000 solid;
+        text-align: center;
+    }
+    
+    .servicio .descripcion p{
+        font-size: 18px;
+        font-weight: 450;
+        text-align: justify;
+        line-height: 1.5;
+    }
+}
+
